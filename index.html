@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>스트림스</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <header>
+            <h1><ruby>스트림스<rt>STREAMS</rt></ruby></h1>
+            <nav>
+                <div>
+                    <input type="checkbox" id="levelSelect"/>
+                    <label for="levelSelect">상급규칙</label>
+                </div>
+                <div>
+                    <button class = "select">뽑기</button>
+                    <button class = "reset">초기화</button>
+                </div>
+                <div>
+                    <label for="count">뽑은 횟수 : </label>
+                    <input id="count" type="text" value="0"/>
+                </div>
+            </nav>
+        </header>
+        <h2 class="leftTitle">뽑은 숫자</h2>
+        <div class="numbers">
+            <!--뽑기-->
+        </div>
+        <h2 class="rightTitle">점수표</h2>
+        <div class="score">
+            <table>
+                <th>오름차순</th>
+                <th>점수</th>
+                <tr>
+                    <td>1칸</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>2칸</td>
+                    <td>+1</td>
+                </tr>
+                <tr>
+                    <td>3칸</td>
+                    <td>+3</td>
+                </tr>
+                <tr>
+                    <td>4칸</td>
+                    <td>+5</td>
+                </tr>
+                <tr>
+                    <td>5칸</td>
+                    <td>+7</td>
+                </tr>
+                <tr>
+                    <td>6칸</td>
+                    <td class="normal">+9</td>
+                    <td class="high" style="display: none;"><b>+3</b></td>
+                <tr>
+                    <td>7칸</td>
+                    <td>+11</td>
+                </tr>
+                <tr>
+                    <td>8칸</td>
+                    <td>+15</td>
+                </tr>
+                <tr>
+                    <td>9칸</td>
+                    <td>+20</td>
+                </tr>
+                <tr>
+                    <td>10칸</td>
+                    <td>+25</td>
+                </tr>
+                <tr>
+                    <td>11칸</td>
+                    <td>+30</td>
+                </tr>
+                <tr>
+                    <td>12칸</td>
+                    <td class="normal">+35</td>
+                    <td class="high" style="display: none;"><b>+20</b></td>
+                <tr>
+                    <td>13칸</td>
+                    <td>+40</td>
+                </tr>
+                <tr>
+                    <td>14칸</td>
+                    <td>+50</td>
+                </tr>
+                <tr>
+                    <td>15칸</td>
+                    <td>+60</td>
+                </tr>
+                <tr>
+                    <td>16칸</td>
+                    <td>+70</td>
+                </tr>
+                <tr>
+                    <td>17칸</td>
+                    <td class="normal">+85</td>
+                    <td class="high" style="display: none;"><b>+50</b></td>
+                </tr>
+                <tr>
+                    <td>18칸</td>
+                    <td>+100</td>
+                </tr>
+                <tr>
+                    <td>19칸</td>
+                    <td>+150</td>
+                </tr>
+                <tr>
+                    <td>20칸</td>
+                    <td>+300</td>
+                </tr>
+            </table>
+        </div>
+        <footer>
+            <h4>designed by Charles</h4>
+            <!--저작권자 제작자 입력-->
+        </footer>
+        <script src="index.js"></script>
+        
+    </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  grid-template-rows: 1fr 0.5fr 7.5fr 1fr;
+  gap: 10px;
+}
+header {
+  grid-column: 1/ 3;
+  grid-row: 1/2;
+  color: white;
+  background: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  grid-column: 1/ 3;
+  grid-row: 4/5;
+  color: white;
+  background: teal;
+  font-weight: bold;
+}
+.leftTitle {
+  grid-column: 1/ 2;
+  grid-row: 2/3;
+}
+.rightTitle {
+  grid-column: 2/ 3;
+  grid-row: 2/3;
+}
+.numbers {
+  grid-column: 1/ 2;
+  grid-row: 3/4;
+}
+.score {
+  grid-column: 2/ 3;
+  grid-row: 3/4;
+}
+button {
+  background-color: #87ceeb;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #4169e1;
+  color: white;
+}
+table {
+  font-size: 1.2rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th,
+td {
+  width: 50%;
+  border: 1px solid black;
+}
+/* 함수 관련 */
+.numberBox {
+  font-size: 3rem;
+  float: left;
+  text-align: center;
+  width: 20%;
+  height: 25%;
+  background-color: #34495e;
+  color: #ecf0f1;
+  position: relative;
+}
+#count {
+  height: auto;
+  width: auto;
+}
+.finish {
+  color: red;
+}
