@@ -1,3 +1,3 @@
 # streamsforclass
 
-sukch369.github.io/streamsforclass
+https://sukch369.github.io/streamsforclass/
